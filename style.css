@@ -12,6 +12,9 @@ html {
 
 main header {
   height: 100vh;
+  background-image: url(Multimedia/img/madera.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 main header .menssage {
@@ -31,8 +34,10 @@ main header .menu {
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content: space-between;
   gap: 20rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 main header .menu figure img {
@@ -42,21 +47,20 @@ main header .menu figure img {
   object-fit: cover;
 }
 
-main header .menu div ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-}
-
-main header .menu div ul li i {
+main header .menu div a {
   color: #000;
   font-size: 1.8rem;
   padding: 0 2rem;
 }
+main header .menu div button {
+  padding: 1rem;
+  font-size: large;color: #000;
+  font-size: 1.8rem;
+  background: transparent;
+  border: none;
+}
 
 main header .portada {
-  background-color: yellowgreen;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,6 +68,7 @@ main header .portada {
 
 main header .portada .image {
   width: 50%;
+  object-fit: contain;
 }
 
 main header .portada .image button {
@@ -89,14 +94,13 @@ main header .portada .image figure {
 }
 
 main header .portada .image figure img {
-  width: 100%;
-  height: 100vh;
-  -o-object-fit: cover;
-     object-fit: cover;
+  width: 60%;
+  height: 80vh;
+  object-fit: cover;
+  margin-left: 8rem;
 }
 
 main header .portada .text {
-  background-color: #fff;
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -236,7 +240,7 @@ main .two-columns figure img {
   height: 100%;
 }
 
-main .four_four {
+main .all_product {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -249,13 +253,13 @@ main .four_four {
           align-items: center;
 }
 
-main .four_four h3 {
+main .all_product h3 {
   font-size: 2.5rem;
   text-align: center;
   margin: 10rem 0 5rem 0;
 }
 
-main .four_four .products {
+main .all_product .products {
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: space-evenly;
@@ -268,7 +272,7 @@ main .four_four .products {
  "cinco seis siete ocho";
 }
 
-main .four_four .products .juguetes1 {
+main .all_product .products .juguetes1 {
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -288,27 +292,27 @@ main .four_four .products .juguetes1 {
   grid-area: uno;
 }
 
-main .four_four .products .juguetes1 figure {
+main .all_product .products .juguetes1 figure {
   width: 20rem;
   height: 20rem;
 }
 
-main .four_four .products .juguetes1 figure img {
+main .all_product .products .juguetes1 figure img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-main .four_four .products .juguetes1 span {
+main .all_product .products .juguetes1 span {
   font-size: 2rem;
 }
 
-main .four_four .products .juguetes1 p {
+main .all_product .products .juguetes1 p {
   font-size: 1.5rem;
 }
 
-main .four_four .products .juguetes2 {
+main .all_product .products .juguetes2 {
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -328,27 +332,27 @@ main .four_four .products .juguetes2 {
   grid-area: dos;
 }
 
-main .four_four .products .juguetes2 figure {
+main .all_product .products .juguetes2 figure {
   width: 20rem;
   height: 20rem;
 }
 
-main .four_four .products .juguetes2 figure img {
+main .all_product .products .juguetes2 figure img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-main .four_four .products .juguetes2 span {
+main .all_product .products .juguetes2 span {
   font-size: 2rem;
 }
 
-main .four_four .products .juguetes2 p {
+main .all_product .products .juguetes2 p {
   font-size: 1.5rem;
 }
 
-main .four_four .products .juguetes3 {
+main .all_product .products .juguetes3 {
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -368,27 +372,27 @@ main .four_four .products .juguetes3 {
   grid-area: tres;
 }
 
-main .four_four .products .juguetes3 figure {
+main .all_product .products .juguetes3 figure {
   width: 20rem;
   height: 20rem;
 }
 
-main .four_four .products .juguetes3 figure img {
+main .all_product .products .juguetes3 figure img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-main .four_four .products .juguetes3 span {
+main .all_product .products .juguetes3 span {
   font-size: 2rem;
 }
 
-main .four_four .products .juguetes3 p {
+main .all_product .products .juguetes3 p {
   font-size: 1.5rem;
 }
 
-main .four_four .products .juguetes4 {
+main .all_product .products .juguetes4 {
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -408,27 +412,27 @@ main .four_four .products .juguetes4 {
   grid-area: cuatro;
 }
 
-main .four_four .products .juguetes4 figure {
+main .all_product .products .juguetes4 figure {
   width: 20rem;
   height: 20rem;
 }
 
-main .four_four .products .juguetes4 figure img {
+main .all_product .products .juguetes4 figure img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-main .four_four .products .juguetes4 span {
+main .all_product .products .juguetes4 span {
   font-size: 2rem;
 }
 
-main .four_four .products .juguetes4 p {
+main .all_product .products .juguetes4 p {
   font-size: 1.5rem;
 }
 
-main .four_four .products .juguetes5 {
+main .all_product .products .juguetes5 {
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -448,27 +452,27 @@ main .four_four .products .juguetes5 {
   grid-area: cinco;
 }
 
-main .four_four .products .juguetes5 figure {
+main .all_product .products .juguetes5 figure {
   width: 20rem;
   height: 20rem;
 }
 
-main .four_four .products .juguetes5 figure img {
+main .all_product .products .juguetes5 figure img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-main .four_four .products .juguetes5 span {
+main .all_product .products .juguetes5 span {
   font-size: 2rem;
 }
 
-main .four_four .products .juguetes5 p {
+main .all_product .products .juguetes5 p {
   font-size: 1.5rem;
 }
 
-main .four_four .products .juguetes6 {
+main .all_product .products .juguetes6 {
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -488,27 +492,27 @@ main .four_four .products .juguetes6 {
   grid-area: seis;
 }
 
-main .four_four .products .juguetes6 figure {
+main .all_product .products .juguetes6 figure {
   width: 20rem;
   height: 20rem;
 }
 
-main .four_four .products .juguetes6 figure img {
+main .all_product .products .juguetes6 figure img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-main .four_four .products .juguetes6 span {
+main .all_product .products .juguetes6 span {
   font-size: 2rem;
 }
 
-main .four_four .products .juguetes6 p {
+main .all_product .products .juguetes6 p {
   font-size: 1.5rem;
 }
 
-main .four_four .products .juguetes7 {
+main .all_product .products .juguetes7 {
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -528,27 +532,27 @@ main .four_four .products .juguetes7 {
   grid-area: siete;
 }
 
-main .four_four .products .juguetes7 figure {
+main .all_product .products .juguetes7 figure {
   width: 20rem;
   height: 20rem;
 }
 
-main .four_four .products .juguetes7 figure img {
+main .all_product .products .juguetes7 figure img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-main .four_four .products .juguetes7 span {
+main .all_product .products .juguetes7 span {
   font-size: 2rem;
 }
 
-main .four_four .products .juguetes7 p {
+main .all_product .products .juguetes7 p {
   font-size: 1.5rem;
 }
 
-main .four_four .products .juguetes8 {
+main .all_product .products .juguetes8 {
   padding: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -568,27 +572,27 @@ main .four_four .products .juguetes8 {
   grid-area: ocho;
 }
 
-main .four_four .products .juguetes8 figure {
+main .all_product .products .juguetes8 figure {
   width: 20rem;
   height: 20rem;
 }
 
-main .four_four .products .juguetes8 figure img {
+main .all_product .products .juguetes8 figure img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-main .four_four .products .juguetes8 span {
+main .all_product .products .juguetes8 span {
   font-size: 2rem;
 }
 
-main .four_four .products .juguetes8 p {
+main .all_product .products .juguetes8 p {
   font-size: 1.5rem;
 }
 
-main .four_four button {
+main .all_product button {
   width: 10rem;
   height: 4rem;
   border-radius: 50px;
@@ -596,7 +600,7 @@ main .four_four button {
   background-color: #000;
 }
 
-main .four_four button a {
+main .all_product button a {
   text-decoration: none;
   color: #fff;
   font-size: 1.5rem;
