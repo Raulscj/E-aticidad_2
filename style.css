@@ -209,7 +209,7 @@ main .Favorites .objects div figure img {
   height: 100%;
 }
 
-main .Favorites .objects div span {
+main .Favorites .objects div h6 {
   margin-top: 2rem;
   font-size: 2rem;
   font-weight: bold;
@@ -304,7 +304,7 @@ main .all_product .products .juguetes1 figure img {
      object-fit: cover;
 }
 
-main .all_product .products .juguetes1 span {
+main .all_product .products .juguetes1 h6 {
   font-size: 2rem;
 }
 
@@ -344,7 +344,7 @@ main .all_product .products .juguetes2 figure img {
      object-fit: cover;
 }
 
-main .all_product .products .juguetes2 span {
+main .all_product .products .juguetes2 h6 {
   font-size: 2rem;
 }
 
@@ -384,7 +384,7 @@ main .all_product .products .juguetes3 figure img {
      object-fit: cover;
 }
 
-main .all_product .products .juguetes3 span {
+main .all_product .products .juguetes3 h6 {
   font-size: 2rem;
 }
 
@@ -424,7 +424,7 @@ main .all_product .products .juguetes4 figure img {
      object-fit: cover;
 }
 
-main .all_product .products .juguetes4 span {
+main .all_product .products .juguetes4 h6 {
   font-size: 2rem;
 }
 
@@ -464,7 +464,7 @@ main .all_product .products .juguetes5 figure img {
      object-fit: cover;
 }
 
-main .all_product .products .juguetes5 span {
+main .all_product .products .juguetes5 h6 {
   font-size: 2rem;
 }
 
@@ -504,7 +504,7 @@ main .all_product .products .juguetes6 figure img {
      object-fit: cover;
 }
 
-main .all_product .products .juguetes6 span {
+main .all_product .products .juguetes6 h6 {
   font-size: 2rem;
 }
 
@@ -544,7 +544,7 @@ main .all_product .products .juguetes7 figure img {
      object-fit: cover;
 }
 
-main .all_product .products .juguetes7 span {
+main .all_product .products .juguetes7 h6 {
   font-size: 2rem;
 }
 
@@ -584,7 +584,7 @@ main .all_product .products .juguetes8 figure img {
      object-fit: cover;
 }
 
-main .all_product .products .juguetes8 span {
+main .all_product .products .juguetes8 h6 {
   font-size: 2rem;
 }
 
