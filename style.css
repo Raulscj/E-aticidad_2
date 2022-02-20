@@ -653,7 +653,7 @@ main .footer .logo_footer figure img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+      object-fit: cover;
 }
 
 main .footer .form {
@@ -828,8 +828,22 @@ footer {
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 1.8rem;
+      justify-content: space-around;
+  font-size: 1.5rem;
   margin-top: 2rem;
-  padding: 2rem;
+  padding: 1rem;
+}
+footer div p{
+  align-items: flex-end;
+}
+footer .icons ul{
+  list-style: none;
+  display: flex;
+  align-items:flex-start;
+  justify-content: center;
+}
+footer .icons ul li{
+  align-items: flex-start;
+  padding: 1rem;
+  font-size: large;
 }
