@@ -113,6 +113,7 @@ main header .portada .image figure img {
 }
 
 main header .portada .text {
+  color: #fff;
   width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
